@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #0a0a0a;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: #EF7C00; color: #fff; }
+}
+
+@layer utilities {
+  /* marquee */
+  @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+  .marquee-track { animation: marquee 38s linear infinite; }
+  .ticker-track  { animation: marquee 28s linear infinite; }
+
+  /* hide scrollbar */
+  .scroll-hide::-webkit-scrollbar { display: none; }
+  .scroll-hide { scrollbar-width: none; -ms-overflow-style: none; }
+
+  /* underline nav link */
+  .nav-link { position: relative; }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background: #EF7C00;
+    transition: width 0.3s ease;
+  }
+  .nav-link:hover::after { width: 100%; }
+
+  /* placeholder image slot */
+  .slot {
+    background-color: #f1ebe4;
+    background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.04) 0 1px, transparent 1px 14px);
+    color: #6b6258;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+  }
+  .slot--dark {
+    background-color: #111;
+    color: #9a9a9a;
+    background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 14px);
+  }
+  .slot--pink {
+    background-color: #ffe4f2;
+    color: #a01660;
+    background-image: repeating-linear-gradient(135deg, rgba(255,20,147,0.06) 0 1px, transparent 1px 14px);
+  }
+
+  /* accordion */
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .acc-icon { transform: rotate(45deg); }
+  .acc-icon { transition: transform 0.3s ease; display: inline-block; }
+}
