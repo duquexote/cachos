@@ -1,8 +1,8 @@
 const cards = [
-  { tag: 'Definição', title: 'Cera de Alta Afinidade', desc: 'Fixação leve e flexível — modela o cacho sem rigidez nem efeito borracha.', pink: true },
-  { tag: 'Memória', title: 'Fixador sem Gel', desc: 'Mantém o cacho definido com naturalidade, sem deixar duro ou pesado.' },
-  { tag: 'Nutrição', title: 'Óleo de Coco', desc: 'Nutre profundamente, protege e combate o ressecamento dos fios.', pink: true },
-  { tag: 'Hidratação', title: 'Aloe Vera', desc: 'Hidrata, suaviza e devolve elasticidade à fibra capilar.' },
+  { tag: 'Definição', title: 'Cera de Alta Afinidade', desc: 'Fixação leve e flexível — modela o cacho sem rigidez nem efeito borracha.', image: '/ativo-cera-alta-afinidade.webp' },
+  { tag: 'Memória', title: 'Fixador sem Gel', desc: 'Mantém o cacho definido com naturalidade, sem deixar duro ou pesado.', image: '/ativo-fixador-sem-gel.webp' },
+  { tag: 'Nutrição', title: 'Óleo de Coco', desc: 'Nutre profundamente, protege e combate o ressecamento dos fios.', image: '/ativo-oleo-de-coco.webp' },
+  { tag: 'Hidratação', title: 'Aloe Vera', desc: 'Hidrata, suaviza e devolve elasticidade à fibra capilar.', image: '/ativo-aloe-vera.webp' },
 ];
 
 const systems = [
@@ -31,7 +31,12 @@ export default function Ingredients() {
           <div className="flex gap-4 min-w-max pb-2">
             {cards.map((c) => (
               <article key={c.title} className="w-[260px] shrink-0 rounded-3xl overflow-hidden bg-soft">
-                <div className={`aspect-square ${c.pink ? 'slot slot--pink' : 'slot'}`}>{c.title}</div>
+                <img
+                  src={c.image}
+                  alt={c.title}
+                  className="aspect-square w-full object-cover"
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-pink-brand">{c.tag}</div>
                   <h3 className="font-display text-xl mt-1 leading-tight">{c.title}</h3>

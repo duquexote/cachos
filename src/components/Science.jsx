@@ -9,7 +9,12 @@ export default function Science() {
   return (
     <section id="ciencia" className="relative bg-ink text-paper overflow-hidden">
       <div className="absolute inset-0 opacity-30">
-        <div className="slot slot--dark absolute inset-0">Background — fios cacheados</div>
+        <img
+          src="/aprovado-cacheadas-bg.webp"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+          aria-hidden="true"
+        />
       </div>
       <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/70 to-transparent" />
 
@@ -43,8 +48,13 @@ export default function Science() {
           </div>
         </div>
 
-        <div className="relative aspect-[4/5] rounded-[28px] overflow-hidden lg:self-end max-w-md ml-auto">
-          <div className="slot absolute inset-0">Modelo cacheada</div>
+        <div className="relative aspect-[4/5] w-full rounded-[28px] overflow-hidden lg:self-end max-w-md ml-auto">
+          <img
+            src="/aprovado-cacheadas.webp"
+            alt="Mulher cacheada com cabelo definido"
+            className="absolute inset-0 h-full w-full object-cover"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
