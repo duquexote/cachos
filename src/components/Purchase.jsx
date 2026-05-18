@@ -1,7 +1,7 @@
 const kits = [
-  { id: 1, title: '1 Pote Cachos 1L', sub: '+ Brinde grátis', from: 'R$110,00', price: 'R$69,90', total: null, parc: 'ou 12x de R$6,99 sem juros', off: '-36%', highlight: false, cta: 'Comprar 1 pote', img: '/1_pote.webp' },
-  { id: 2, title: '2 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$240,00', price: 'R$59,99', total: 'R$119,98', parc: 'ou 12x de R$11,99 sem juros', off: '-45%', highlight: true, cta: 'Quero o kit 2 potes', img: '/2_potes.jpeg' },
-  { id: 3, title: '3 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$330,00', price: 'R$59,99', total: 'R$179,97', parc: 'ou 12x de R$17,99 sem juros', off: '-45%', highlight: false, cta: 'Comprar 3 potes', img: '/3_potes.jpeg' },
+  { id: 1, title: '1 Pote Cachos 1L', sub: '+ Brinde grátis', from: 'R$110,00', price: 'R$69,90', total: null, parc: 'ou 12x de R$6,99 sem juros', off: '-36%', highlight: false, cta: 'Comprar 1 pote', img: '/1_pote.webp', url: 'https://checkout.b4you.com.br/-me6nOJxIz/3Steps' },
+  { id: 2, title: '2 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$240,00', price: 'R$59,99', total: 'R$119,98', parc: 'ou 12x de R$11,99 sem juros', off: '-45%', highlight: true, cta: 'Quero o kit 2 potes', img: '/2_potes.jpeg', url: 'https://checkout.b4you.com.br/nyXaGIkf-d/3Steps' },
+  { id: 3, title: '3 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$330,00', price: 'R$59,99', total: 'R$179,97', parc: 'ou 12x de R$17,99 sem juros', off: '-45%', highlight: false, cta: 'Comprar 3 potes', img: '/3_potes.jpeg', url: 'https://checkout.b4you.com.br/0RKJlByCFB/3Steps' },
 ];
 
 function Kit({ k }) {
@@ -28,7 +28,7 @@ function Kit({ k }) {
       <div className="font-mono text-3xl font-semibold mb-1">{k.price}<span className={`text-[14px] font-normal ${dark ? 'text-paper/50' : 'text-ink/50'}`}>/un</span></div>
       {k.total && <div className={`text-[13px] mb-1 ${dark ? 'text-paper/70' : 'text-ink/60'}`}>Total: {k.total}</div>}
       <div className={`text-[13px] mb-5 ${dark ? 'text-paper/50' : 'text-ink/60'}`}>{k.parc}</div>
-      <a href="#" className={`mt-auto block text-center rounded-full px-6 py-4 font-semibold tracking-[0.12em] uppercase text-[13px] transition ${dark ? 'bg-pink-brand text-paper hover:bg-paper hover:text-ink' : 'bg-ink text-paper hover:bg-pink-brand'}`}>
+      <a href={k.url} className={`mt-auto block text-center rounded-full px-6 py-4 font-semibold tracking-[0.12em] uppercase text-[13px] transition ${dark ? 'bg-pink-brand text-paper hover:bg-paper hover:text-ink' : 'bg-ink text-paper hover:bg-pink-brand'}`}>
         {k.cta}
       </a>
     </article>

@@ -3,7 +3,7 @@ const faqs = [
   ['O produto deixa o cabelo duro ou com efeito borracha?', 'Não. O Cachos usa um sistema de fixação sem gel tradicional, combinado com a Cera de Alta Afinidade, que garante modelagem leve e flexível. O resultado é cacho definido com movimento natural — sem rigidez, sem efeito plástico e sem empastamento.'],
   ['Posso usar no método L.O.C ou L.C.O?', 'Sim! O Cachos é totalmente compatível com os métodos L.O.C e L.C.O. Funciona como etapa de creme selante e de definição, potencializando o resultado quando combinado com leave-in e óleo capilar.'],
   ['Como devo aplicar para melhor resultado?', 'Aplique ainda com o cabelo molhado (úmido é o ideal), distribuindo o creme de baixo para cima por toda a extensão dos fios. Faça o plopping ou deixe secar naturalmente. Evite mexer nos cachos enquanto secam para não quebrar a definição.'],
-  ['Contém sulfato, parabeno ou silicone?', 'Não. O Cachos foi formulado sem sulfatos, sem parabenos e sem silicones. É seguro para uso frequente, inclusive para quem segue o Método Curly Girl (CGM).'],
+  ['Contém sulfato, parabeno ou óleo mineral?', 'Não. O Cachos foi formulado sem sulfatos, sem parabenos e sem óleo mineral. É seguro para uso frequente, inclusive para quem segue o Método Curly Girl (CGM).'],
   ['Em quanto tempo verei resultados?', 'A maioria das clientes percebe melhora no brilho e na maciez já na primeira lavagem. A definição se torna mais consistente a partir da segunda semana de uso regular.'],
   ['Em quanto tempo recebo?', 'Despachamos em até 24h úteis. Frete grátis acima de R$200 — incluído nos kits de 2 e 3 potes. Pagamento via Pix tem 1% de desconto adicional (R$108,90 à vista no Pix).'],
 ];

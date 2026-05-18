@@ -7,7 +7,7 @@ const rows = [
   ['Marca', 'Ledebut · Cosmoética Indústria de Cosméticos · Produzido no Brasil'],
 ];
 
-const tags = ['Sem sulfato', 'Sem parabeno', 'Sem silicone', 'CGM friendly', '2A — 4C'];
+const tags = ['Sem sulfato', 'Sem parabeno', 'Sem óleo mineral', 'CGM friendly', '2A — 4C'];
 
 export default function Technical() {
   return (

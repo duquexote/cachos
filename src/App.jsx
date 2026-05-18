@@ -6,7 +6,6 @@ import ExpertTestimonials from './components/ExpertTestimonials';
 import Comparison from './components/Comparison';
 import Ingredients from './components/Ingredients';
 import Habit from './components/Habit';
-import Science from './components/Science';
 import Purchase from './components/Purchase';
 import CustomerReviews from './components/CustomerReviews';
 import Stats from './components/Stats';
@@ -25,7 +24,6 @@ export default function App() {
       <Comparison />
       <Ingredients />
       <Habit />
-      <Science />
       <Purchase />
       <CustomerReviews />
       <Stats />

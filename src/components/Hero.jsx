@@ -52,7 +52,7 @@ export default function Hero() {
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-[13px]">
             {[
               'Definição sem endurecer',
-              'Sem sulfato, sem parabeno, sem silicone',
+              'Sem sulfato, sem parabeno, sem óleo mineral',
               'Cera de Alta Afinidade + Fixador sem Gel',
               'Óleo de Coco + Aloe Vera para nutrir',
             ].map((t) => (

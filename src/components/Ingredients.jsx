@@ -8,7 +8,7 @@ const cards = [
 const systems = [
   { n: '01', title: 'Fixação leve e flexível', body: 'A Cera de Alta Afinidade somada ao Fixador sem Gel modela o cacho com naturalidade, sem rigidez, sem efeito plástico e sem empastamento.', open: true },
   { n: '02', title: 'Nutrição e hidratação profunda', body: 'Óleo de Coco nutre profundamente e combate o ressecamento. Aloe Vera hidrata, suaviza e devolve elasticidade à fibra capilar.' },
-  { n: '03', title: 'Compatível com Curly Girl Method', body: 'Formulado sem sulfatos, sem parabenos e sem silicones. Seguro para uso frequente, compatível com métodos CGM, L.O.C e L.C.O.' },
+  { n: '03', title: 'Compatível com Curly Girl Method', body: 'Formulado sem sulfatos, sem parabenos e sem óleo mineral. Seguro para uso frequente, compatível com métodos CGM, L.O.C e L.C.O.' },
 ];
 
 export default function Ingredients() {

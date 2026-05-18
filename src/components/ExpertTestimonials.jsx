@@ -76,7 +76,7 @@ export default function ExpertTestimonials() {
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10 mb-7">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <h2 className="font-display text-4xl md:text-6xl leading-[1] tracking-[-0.02em] font-medium max-w-3xl">
-            Quem vive de cabelo<br />
+            Quem entende de cachos<br />
             <span className="italic font-light">já adotou.</span>
           </h2>
           <p className="text-ink/60 max-w-md text-[15px] leading-relaxed">

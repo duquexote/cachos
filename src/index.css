@@ -17,7 +17,7 @@
   /* marquee */
   @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
   .marquee-track { animation: marquee 38s linear infinite; }
-  .ticker-track  { animation: marquee 28s linear infinite; }
+  .ticker-track  { animation: marquee 18.667s linear infinite; }
 
   /* hide scrollbar */
   .scroll-hide::-webkit-scrollbar { display: none; }
