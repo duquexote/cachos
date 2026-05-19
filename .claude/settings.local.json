@@ -6,7 +6,8 @@
       "Bash(grep -E \"\\\\.\\(jpg|jpeg|png|webp|avif|gif\\)$\")",
       "Bash(dir \"c:\\\\dev\\\\cachos-lp\" /b /s)",
       "Bash(findstr /i \".jpg .jpeg .png .webp .avif\")",
-      "Bash(findstr /v \"node_modules\")"
+      "Bash(findstr /v \"node_modules\")",
+      "PowerShell(git -C \"c:\\\\dev\\\\cachos-lp\" pull origin main)"
     ]
   }
 }

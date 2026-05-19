@@ -1,7 +1,7 @@
 const kits = [
-  { id: 1, title: '1 Pote Cachos 1L', sub: '+ Brinde grátis', from: 'R$110,00', price: 'R$69,90', total: null, parc: 'ou 12x de R$6,99 sem juros', off: '-36%', highlight: false, cta: 'Comprar 1 pote', img: '/1_pote.webp', url: 'https://checkout.b4you.com.br/-me6nOJxIz/3Steps' },
-  { id: 2, title: '2 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$240,00', price: 'R$59,99', total: 'R$119,98', parc: 'ou 12x de R$11,99 sem juros', off: '-45%', highlight: true, cta: 'Quero o kit 2 potes', img: '/2_potes.jpeg', url: 'https://checkout.b4you.com.br/nyXaGIkf-d/3Steps' },
-  { id: 3, title: '3 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$330,00', price: 'R$59,99', total: 'R$179,97', parc: 'ou 12x de R$17,99 sem juros', off: '-45%', highlight: false, cta: 'Comprar 3 potes', img: '/3_potes.jpeg', url: 'https://checkout.b4you.com.br/0RKJlByCFB/3Steps' },
+  { id: 1, title: '1 Pote Cachos 1L', sub: '+ Brinde grátis', from: 'R$110,00', price: 'R$99,00', total: null, parc: 'ou 3x de R$33,00 sem juros', off: '-10%', highlight: false, cta: 'Comprar 1 pote', img: '/1_pote.webp', url: 'https://checkout.b4you.com.br/-me6nOJxIz/3Steps' },
+  { id: 2, title: '2 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$198,00', price: 'R$90,00', total: 'R$180,00', parc: 'ou 3x de R$60,00 sem juros', off: '-9%', highlight: true, cta: 'Quero o kit 2 potes', img: '/2_potes.jpeg', url: 'https://checkout.b4you.com.br/nyXaGIkf-d/3Steps' },
+  { id: 3, title: '3 Potes Cachos 1L', sub: '+ Brinde grátis · 🚚 FRETE GRÁTIS', from: 'R$297,00', price: 'R$76,67', total: 'R$230,00', parc: 'ou 3x de R$76,67 sem juros', off: '-23%', highlight: false, cta: 'Comprar 3 potes', img: '/3_potes.jpeg', url: 'https://checkout.b4you.com.br/0RKJlByCFB/3Steps' },
 ];
 
 function Kit({ k }) {
